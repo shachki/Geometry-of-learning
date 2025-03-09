@@ -44,3 +44,10 @@ Histograms of label distribution over three satasets in both ProbCover and Varsl
 ![WhatsApp Image 2025-03-06 at 7 50 46 PM](https://github.com/user-attachments/assets/02aa4f80-2dcc-4174-aa4f-a08ea1c57d30)
 
 In these plots, the x-axis is the budget size and the y-axis is the accuracy. We compare the performence of the three models (random probcover and varslc). For smaller budget sizes, the ProbCover algorithm typically performs best. However, as the budget increases, the Varslc algorithm improves and eventually outperforms both ProbCover. In all datasets Varslc works better than random selection.
+
+
+# Next steps
+1. Choosing samples in a dense region proved useful for ProbCover, we would like our model to do the same
+2. Allowing Varslc to identify the number of cluster automatically, currently we feed it the number of clusters.
+3. Work unbalanced data (real world scenario)
+
